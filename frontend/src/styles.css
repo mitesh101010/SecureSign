@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f6f6f6;
+  color: #1f1f1f;
+}
+
+.layout {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+section {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.form {
+  display: grid;
+  gap: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 14px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 10px;
+  border: 1px solid #00845a;
+  color: #00845a;
+  background: #ecfff8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
